@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6163D1561E7C3BA200C76859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163D1551E7C3BA200C76859 /* AppDelegate.swift */; };
+		6163D1581E7C3BA200C76859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163D1571E7C3BA200C76859 /* ViewController.swift */; };
+		6163D15B1E7C3BA200C76859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6163D1591E7C3BA200C76859 /* Main.storyboard */; };
+		6163D15D1E7C3BA200C76859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6163D15C1E7C3BA200C76859 /* Assets.xcassets */; };
+		6163D1601E7C3BA200C76859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6163D15E1E7C3BA200C76859 /* LaunchScreen.storyboard */; };
+		6163D16B1E7C3BA200C76859 /* POECHelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163D16A1E7C3BA200C76859 /* POECHelloWorldTests.swift */; };
+		6163D1761E7C3BA200C76859 /* POECHelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163D1751E7C3BA200C76859 /* POECHelloWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6163D1671E7C3BA200C76859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6163D14A1E7C3BA200C76859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6163D1511E7C3BA200C76859;
+			remoteInfo = POECHelloWorld;
+		};
+		6163D1721E7C3BA200C76859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6163D14A1E7C3BA200C76859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6163D1511E7C3BA200C76859;
+			remoteInfo = POECHelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6163D1521E7C3BA200C76859 /* POECHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POECHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6163D1551E7C3BA200C76859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6163D1571E7C3BA200C76859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6163D15A1E7C3BA200C76859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6163D15C1E7C3BA200C76859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6163D15F1E7C3BA200C76859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6163D1611E7C3BA200C76859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6163D1661E7C3BA200C76859 /* POECHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POECHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6163D16A1E7C3BA200C76859 /* POECHelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POECHelloWorldTests.swift; sourceTree = "<group>"; };
+		6163D16C1E7C3BA200C76859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6163D1711E7C3BA200C76859 /* POECHelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POECHelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6163D1751E7C3BA200C76859 /* POECHelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POECHelloWorldUITests.swift; sourceTree = "<group>"; };
+		6163D1771E7C3BA200C76859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6163D14F1E7C3BA200C76859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6163D1631E7C3BA200C76859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6163D16E1E7C3BA200C76859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6163D1491E7C3BA200C76859 = {
+			isa = PBXGroup;
+			children = (
+				6163D1541E7C3BA200C76859 /* POECHelloWorld */,
+				6163D1691E7C3BA200C76859 /* POECHelloWorldTests */,
+				6163D1741E7C3BA200C76859 /* POECHelloWorldUITests */,
+				6163D1531E7C3BA200C76859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6163D1531E7C3BA200C76859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6163D1521E7C3BA200C76859 /* POECHelloWorld.app */,
+				6163D1661E7C3BA200C76859 /* POECHelloWorldTests.xctest */,
+				6163D1711E7C3BA200C76859 /* POECHelloWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6163D1541E7C3BA200C76859 /* POECHelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				6163D1551E7C3BA200C76859 /* AppDelegate.swift */,
+				6163D1571E7C3BA200C76859 /* ViewController.swift */,
+				6163D1591E7C3BA200C76859 /* Main.storyboard */,
+				6163D15C1E7C3BA200C76859 /* Assets.xcassets */,
+				6163D15E1E7C3BA200C76859 /* LaunchScreen.storyboard */,
+				6163D1611E7C3BA200C76859 /* Info.plist */,
+			);
+			path = POECHelloWorld;
+			sourceTree = "<group>";
+		};
+		6163D1691E7C3BA200C76859 /* POECHelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				6163D16A1E7C3BA200C76859 /* POECHelloWorldTests.swift */,
+				6163D16C1E7C3BA200C76859 /* Info.plist */,
+			);
+			path = POECHelloWorldTests;
+			sourceTree = "<group>";
+		};
+		6163D1741E7C3BA200C76859 /* POECHelloWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6163D1751E7C3BA200C76859 /* POECHelloWorldUITests.swift */,
+				6163D1771E7C3BA200C76859 /* Info.plist */,
+			);
+			path = POECHelloWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6163D1511E7C3BA200C76859 /* POECHelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6163D17A1E7C3BA200C76859 /* Build configuration list for PBXNativeTarget "POECHelloWorld" */;
+			buildPhases = (
+				6163D14E1E7C3BA200C76859 /* Sources */,
+				6163D14F1E7C3BA200C76859 /* Frameworks */,
+				6163D1501E7C3BA200C76859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POECHelloWorld;
+			productName = POECHelloWorld;
+			productReference = 6163D1521E7C3BA200C76859 /* POECHelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6163D1651E7C3BA200C76859 /* POECHelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6163D17D1E7C3BA200C76859 /* Build configuration list for PBXNativeTarget "POECHelloWorldTests" */;
+			buildPhases = (
+				6163D1621E7C3BA200C76859 /* Sources */,
+				6163D1631E7C3BA200C76859 /* Frameworks */,
+				6163D1641E7C3BA200C76859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6163D1681E7C3BA200C76859 /* PBXTargetDependency */,
+			);
+			name = POECHelloWorldTests;
+			productName = POECHelloWorldTests;
+			productReference = 6163D1661E7C3BA200C76859 /* POECHelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6163D1701E7C3BA200C76859 /* POECHelloWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6163D1801E7C3BA200C76859 /* Build configuration list for PBXNativeTarget "POECHelloWorldUITests" */;
+			buildPhases = (
+				6163D16D1E7C3BA200C76859 /* Sources */,
+				6163D16E1E7C3BA200C76859 /* Frameworks */,
+				6163D16F1E7C3BA200C76859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6163D1731E7C3BA200C76859 /* PBXTargetDependency */,
+			);
+			name = POECHelloWorldUITests;
+			productName = POECHelloWorldUITests;
+			productReference = 6163D1711E7C3BA200C76859 /* POECHelloWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6163D14A1E7C3BA200C76859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Coaxys;
+				TargetAttributes = {
+					6163D1511E7C3BA200C76859 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6163D1651E7C3BA200C76859 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6163D1511E7C3BA200C76859;
+					};
+					6163D1701E7C3BA200C76859 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6163D1511E7C3BA200C76859;
+					};
+				};
+			};
+			buildConfigurationList = 6163D14D1E7C3BA200C76859 /* Build configuration list for PBXProject "POECHelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6163D1491E7C3BA200C76859;
+			productRefGroup = 6163D1531E7C3BA200C76859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6163D1511E7C3BA200C76859 /* POECHelloWorld */,
+				6163D1651E7C3BA200C76859 /* POECHelloWorldTests */,
+				6163D1701E7C3BA200C76859 /* POECHelloWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6163D1501E7C3BA200C76859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6163D1601E7C3BA200C76859 /* LaunchScreen.storyboard in Resources */,
+				6163D15D1E7C3BA200C76859 /* Assets.xcassets in Resources */,
+				6163D15B1E7C3BA200C76859 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6163D1641E7C3BA200C76859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6163D16F1E7C3BA200C76859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6163D14E1E7C3BA200C76859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6163D1581E7C3BA200C76859 /* ViewController.swift in Sources */,
+				6163D1561E7C3BA200C76859 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6163D1621E7C3BA200C76859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6163D16B1E7C3BA200C76859 /* POECHelloWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6163D16D1E7C3BA200C76859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6163D1761E7C3BA200C76859 /* POECHelloWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6163D1681E7C3BA200C76859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6163D1511E7C3BA200C76859 /* POECHelloWorld */;
+			targetProxy = 6163D1671E7C3BA200C76859 /* PBXContainerItemProxy */;
+		};
+		6163D1731E7C3BA200C76859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6163D1511E7C3BA200C76859 /* POECHelloWorld */;
+			targetProxy = 6163D1721E7C3BA200C76859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6163D1591E7C3BA200C76859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6163D15A1E7C3BA200C76859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6163D15E1E7C3BA200C76859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6163D15F1E7C3BA200C76859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6163D1781E7C3BA200C76859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6163D1791E7C3BA200C76859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6163D17B1E7C3BA200C76859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = POECHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coaxys.POECHelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6163D17C1E7C3BA200C76859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = POECHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coaxys.POECHelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6163D17E1E7C3BA200C76859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = POECHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coaxys.POECHelloWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POECHelloWorld.app/POECHelloWorld";
+			};
+			name = Debug;
+		};
+		6163D17F1E7C3BA200C76859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = POECHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coaxys.POECHelloWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POECHelloWorld.app/POECHelloWorld";
+			};
+			name = Release;
+		};
+		6163D1811E7C3BA200C76859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = POECHelloWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coaxys.POECHelloWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = POECHelloWorld;
+			};
+			name = Debug;
+		};
+		6163D1821E7C3BA200C76859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = POECHelloWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coaxys.POECHelloWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = POECHelloWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6163D14D1E7C3BA200C76859 /* Build configuration list for PBXProject "POECHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6163D1781E7C3BA200C76859 /* Debug */,
+				6163D1791E7C3BA200C76859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6163D17A1E7C3BA200C76859 /* Build configuration list for PBXNativeTarget "POECHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6163D17B1E7C3BA200C76859 /* Debug */,
+				6163D17C1E7C3BA200C76859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6163D17D1E7C3BA200C76859 /* Build configuration list for PBXNativeTarget "POECHelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6163D17E1E7C3BA200C76859 /* Debug */,
+				6163D17F1E7C3BA200C76859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6163D1801E7C3BA200C76859 /* Build configuration list for PBXNativeTarget "POECHelloWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6163D1811E7C3BA200C76859 /* Debug */,
+				6163D1821E7C3BA200C76859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6163D14A1E7C3BA200C76859 /* Project object */;
+}
