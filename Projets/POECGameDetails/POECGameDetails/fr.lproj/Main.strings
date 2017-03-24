@@ -1,0 +1,57 @@
+
+/* Class = "UINavigationItem"; title = "New game form"; ObjectID = "8Qm-VA-SPF"; */
+"8Qm-VA-SPF.title" = "New game form";
+
+/* Class = "UIButton"; normalTitle = "Valider"; ObjectID = "8ig-sW-RpE"; */
+"8ig-sW-RpE.normalTitle" = "Valider";
+
+/* Class = "UILabel"; text = "NbChannels"; ObjectID = "HYo-hU-8V2"; */
+"HYo-hU-8V2.text" = "NbChannels";
+
+/* Class = "UILabel"; text = "Game title"; ObjectID = "IhN-ah-N6X"; */
+"IhN-ah-N6X.text" = "Titre du jeu";
+
+/* Class = "UINavigationItem"; title = "Game List"; ObjectID = "K6C-q5-Gfi"; */
+"K6C-q5-Gfi.title" = "Game List";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "NzV-VP-iv2"; */
+"NzV-VP-iv2.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "Box url"; ObjectID = "Qa6-l2-fI1"; */
+"Qa6-l2-fI1.placeholder" = "Box url";
+
+/* Class = "UITextField"; placeholder = "Popularity"; ObjectID = "YIG-Tf-gar"; */
+"YIG-Tf-gar.placeholder" = "Popularity";
+
+/* Class = "UIButton"; normalTitle = "Incrément Channel"; ObjectID = "Yjm-uB-DVP"; */
+"Yjm-uB-DVP.normalTitle" = "Incrément Channel";
+
+/* Class = "UILabel"; text = "NbViewers"; ObjectID = "iAz-Y4-JFK"; */
+"iAz-Y4-JFK.text" = "NbViewers";
+
+/* Class = "UILabel"; text = "My Game Name"; ObjectID = "mcd-Kg-SAH"; */
+"mcd-Kg-SAH.text" = "My Game Name";
+
+/* Class = "UILabel"; text = "Popularity"; ObjectID = "mpL-qk-pGc"; */
+"mpL-qk-pGc.text" = "Popularity";
+
+/* Class = "UILabel"; text = "Popularity"; ObjectID = "n1l-DQ-gZI"; */
+"n1l-DQ-gZI.text" = "Popularity";
+
+/* Class = "UISegmentedControl"; t9U-kI-uio.segmentTitles[0] = "Name"; ObjectID = "t9U-kI-uio"; */
+"t9U-kI-uio.segmentTitles[0]" = "Name";
+
+/* Class = "UISegmentedControl"; t9U-kI-uio.segmentTitles[1] = "Popularity"; ObjectID = "t9U-kI-uio"; */
+"t9U-kI-uio.segmentTitles[1]" = "Popularity";
+
+/* Class = "UISegmentedControl"; t9U-kI-uio.segmentTitles[2] = "Channels"; ObjectID = "t9U-kI-uio"; */
+"t9U-kI-uio.segmentTitles[2]" = "Channels";
+
+/* Class = "UILabel"; text = "Channels"; ObjectID = "u8Q-nT-f7D"; */
+"u8Q-nT-f7D.text" = "Channels";
+
+/* Class = "UILabel"; text = "Viewers"; ObjectID = "vm9-6r-P8p"; */
+"vm9-6r-P8p.text" = "Viewers";
+
+/* Class = "UITextField"; placeholder = "Banner Url"; ObjectID = "z3E-1Y-1SR"; */
+"z3E-1Y-1SR.placeholder" = "Banner Url";
